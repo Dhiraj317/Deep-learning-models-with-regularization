@@ -47,3 +47,5 @@ Thus we are not overfitting the training data anymore and we plot the decision b
 | 3-layer NN with L2-regularization  | 94%  | 93% |
 |3-layer NN with dropout  | 93%  |  95% |
   
+Dropout works great. The test accuracy has increased again (to 95%)! Our model is not overfitting the training set and does a great job on the test
+set. Thus we used ML model to successfully predict the position of football after the French goalkeeper kicks the football!
