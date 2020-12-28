@@ -15,8 +15,8 @@ This is a baseline model, it achieved only 91% accuracy in testing set. Moreover
 
 **Step-2: L2-regularization model**
 
-The standard way to avoid overfitting is called L2 regularization. It consists of appropriately modifying the cost function by introducing a hyperparameter and calculating both forward & backward propogation using weight parameters.L2 regularization relies on the assumption that a model with small weights is simpler than a model with large weights. Thus, by penalizing the square
-values of the weights in the cost function one can drive all the weights to smaller values. It becomes too costly for the cost to have large weights.This
+The standard way to avoid overfitting is called L2 regularization. It consists of appropriately modifying the cost function by introducing a hyperparameter and calculating both forward & backward propogation using weight parameters. L2 regularization relies on the assumption that a model with small weights is simpler than a model with large weights. Thus, by penalizing the square
+values of the weights in the cost function one can drive all the weights to smaller values. It becomes too costly for the cost to have large weights. This
 leads to a smoother model in which the output changes more slowly as the input changes.
 
 <img width="469" alt="error-L2-regularization" src="https://user-images.githubusercontent.com/63168221/103189914-cb6dc980-489c-11eb-99e3-bac9820599b5.png">
@@ -35,7 +35,7 @@ other neuron might be shut down at any time.
 
 <img width="478" alt="err-dropout" src="https://user-images.githubusercontent.com/63168221/103190379-ab3f0a00-489e-11eb-9ba1-3750647a2a5b.png">
 
-The cost function reduces smoothly and reached a platuea after 5000 iterations. The test set accuracy increased to 95%.
+The cost function reduces smoothly and reached a plateau after 5000 iterations. The test set accuracy increased to 95%.
 Thus we are not overfitting the training data anymore and we plot the decision boundary as shown below.
 <img width="471" alt="dropout" src="https://user-images.githubusercontent.com/63168221/103190448-0244df00-489f-11eb-9fba-5f1a423229a6.png">
 
